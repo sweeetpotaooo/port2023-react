@@ -30,8 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__right">
-                    &copy; 2023 webstoryboy<br />
-                    이 사이트는 리액트를 이용하여 제작하였습니다.
+                    &copy; 2023 <br />
                 </div>
             </div>
         </footer>

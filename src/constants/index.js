@@ -50,3 +50,8 @@ export const footerText = [
       link: "https://github.com/webstoryboy/port2023-next",
   },
 ];
+
+export const introText = {
+    title: "port developer",
+    desc: ["talent is", "found at the end of the", "effort"]
+}
