@@ -35,3 +35,7 @@ BlueTitle.args = {
   title: "Blue Title",
   textColor: "blue",
 };
+
+export const StorybookTitle = (args) =>{
+  return <Title {...args} />
+}

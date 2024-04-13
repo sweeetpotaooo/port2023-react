@@ -1,5 +1,4 @@
-
-;// Title.js
+// Title.js
 import React from "react";
 
 const Title = ({ title, textColor }) => (
