@@ -9,7 +9,7 @@ export default {
     color: { control: "color" },
     size: { control: { type: "radio", options: ["big", "small"] } },
     text: { control: "text" },
-    design: {type:'.figma', url:''}
+    design: {type:'.figma', url:'https://www.figma.com/file/mU8kd8r8RG63Emlntu0Fyg/%EA%B9%80%EC%84%B8%ED%98%84's-team-library?type=design&node-id=2348%3A2506&mode=design&t=9tHaOa6mnnZjb74p-1'}
   },
 };
 
