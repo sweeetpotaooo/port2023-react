@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import Intro from "../components/Intro";
 import Skill from "../components/Skill";
 import Site from "../components/Site";
 import Port from "../components/Port";
@@ -17,12 +16,7 @@ const HomeView = () => {
         <Skip />
         <Header />
         <Main>
-            <Slider/>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            
+            <Slider/> 
             <Skill />
             <Site />
             <Port />

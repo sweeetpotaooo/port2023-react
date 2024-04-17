@@ -1,4 +1,4 @@
-function Card(){
+/*function Card(){
   return(
     <div className ="card">
       <h2 className= "card-title">Title</h2>
@@ -8,3 +8,16 @@ function Card(){
 }
 
 export default Card
+*/
+import React from 'react';
+
+function Card({ title, content }) {
+  return (
+    <div className="card">
+      <h2>{title}</h2>
+      <p>{content}</p>
+    </div>
+  );
+}
+
+export default Card;
