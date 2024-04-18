@@ -11,21 +11,25 @@ import { Navigation } from 'swiper/modules';
 
 export default function Slider() {
   return (
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide>
-          <Card title="Card 1" content="This is the content of card 1." />
-          <Card title="Card 1" content="This is the content of card 1." />
-          <Card title="Card 1" content="This is the content of card 1." />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card title="Card 2" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-        <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
-      </Swiper>
+    <div className="slider-container">
+    <h2>룸메이트 구해요</h2>
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <SwiperSlide>
+        <Card title="Card 1" content="This is the content of card 1." />
+        <Card title="Card 1" content="This is the content of card 1." />
+        <Card title="Card 1" content="This is the content of card 1." />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Card title="Card 2" content="This is the content of card 1." />
+      </SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+      <SwiperSlide><Card title="Card 1" content="This is the content of card 1." /></SwiperSlide>
+    </Swiper>
+  </div>
   );
 }
