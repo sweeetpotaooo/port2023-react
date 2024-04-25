@@ -19,18 +19,10 @@ const Footer = () => {
                     </div>
                     <div className="right">
                         <h3>social</h3>
-                        <ul>
-                            {footerText.map((footer, key) => (
-                                <li key={key}>
-                                    <a href={footer.link}>{footer.title}</a>
-                                    <em>{footer.dsec}</em>
-                                </li>
-                            ))}
-                        </ul>
                     </div>
                 </div>
                 <div className="footer__right">
-                    &copy; 2023 <br />
+                    &copy; 2024 <br />
                 </div>
             </div>
         </footer>
