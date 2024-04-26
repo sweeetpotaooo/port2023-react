@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className="title">
                             <a href="/">sign up</a>
                         </div>
-                        <p className="desc">회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.</p>
+                        <p className="desc"></p>
                     </div>
                     <div className="right">
                         <h3>social</h3>
