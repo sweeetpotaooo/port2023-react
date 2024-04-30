@@ -7,19 +7,15 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Skip from "../components/Skip";
 import Main from "../components/Main";
-import Card from "../components/Card";
-import Slider from "../components/Slider";
-
 const HomeView = () => {
     return (
     <>
-        <Skip />
+  <Skip />
         <Header />
         <Main>
-            <Slider/> 
+        <Port />
             <Skill />
             <Site />
-            <Port />
             <Contact />
         </Main>
         <Footer />
