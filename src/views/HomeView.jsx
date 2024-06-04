@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Skip from "../components/Skip";
 import Main from "../components/Main";
+import Titlecard from "../components/Titlecard";
 const HomeView = () => {
     return (
     <>
@@ -14,6 +15,7 @@ const HomeView = () => {
         <Header />
         <Main>
         <Port />
+        <Titlecard/>
             <Skill />
             <Site />
             <Contact />
